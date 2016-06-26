@@ -1,0 +1,56 @@
+/* Styles go here */
+
+body{
+    background-color: black;
+
+}
+
+font{
+    text-shadow: 1px 1px white;
+}
+
+.matrixTbl {
+
+    border: 10px solid white;
+    border-collapse: separate;
+    border-spacing:2px;
+    background-color:grey;
+    padding:3px;
+    border-left-style: none;
+    border-top-style: none;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.emptyCell{
+    border:0px !important;
+    background-color:#000000 !important;
+}
+.matrixTblTd {
+
+    background-color: black;
+    padding: 5px;
+    width:3em;
+    height:3em;
+    color:white;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 1px 1px white;
+    font-family: "Times New Roman", Times, serif;
+    vertical-align: center;
+    border:2px solid red;
+    margin:25px;
+}
+.matrixTblTdOver {
+    border: 1px solid #909090;
+}
+.matrixTblTdOut {
+    border: 3px solid grey ;
+}
+.title{
+
+    color:white;
+    text-decoration: underline;
+
+
+}
